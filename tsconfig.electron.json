@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs", // ✅ 关键
+    "outDir": "dist-electron",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "electron/**/*.ts"
+  ], // ✅ 主进程文件
+  "exclude": [
+    "dist-electron"
+  ]
+}
