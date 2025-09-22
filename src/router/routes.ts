@@ -77,8 +77,6 @@ export const myRoutes = [
     ]
   },
 
-
-
   {
     path: "/login",
     component: Login,

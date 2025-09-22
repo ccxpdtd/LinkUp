@@ -7,10 +7,12 @@
 
     <div class="list-panel">
       <ListPanel></ListPanel>
+
     </div>
 
     <div class="main">
       <Main></Main>
+
     </div>
 
     <div class="chatAside">
